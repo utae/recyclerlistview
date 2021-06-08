@@ -11,6 +11,7 @@ import { GridLayoutManager } from "./core/layoutmanager/GridLayoutManager";
 import ProgressiveListView from "./core/ProgressiveListView";
 import { DebugHandlers } from "./core/devutils/debughandlers/DebugHandlers";
 import { ComponentCompat } from "./utils/ComponentCompat";
+import { MasonryLayoutProvider } from "./core/dependencies/MasonryLayoutProvider";
 
 export {
     ContextProvider,
@@ -34,4 +35,5 @@ export {
     DebugHandlers,
     BaseDataProvider,
     ComponentCompat,
+    MasonryLayoutProvider,
 };
